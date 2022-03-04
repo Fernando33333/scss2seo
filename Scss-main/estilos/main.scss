@@ -1,0 +1,38 @@
+@import "../Parciales/reset";
+@import "../Parciales/variables";
+@import "../Parciales/header";
+@import "../Parciales/mediaq";
+@import "../Parciales/main";
+@import "../Parciales/section";
+@import "../Parciales/footer";
+
+
+header {
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    color: red;
+}
+body {
+    background-color: blue;
+}
+
+.textos-img {
+    color: white;
+}
+
+    .container-grid {
+            display: grid;
+            grid-template-areas:
+                'header header header header'
+                'main main main main'
+                'main main main main'
+                'footer footer footer footer ';
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: auto;
+        }

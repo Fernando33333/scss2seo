@@ -1,0 +1,42 @@
+@mixin textos-mixin {
+font-size: 3rem;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 1.2rem;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+
+    nav {
+        display: inline-block;
+        
+        width: 500px;
+        ul {
+            padding: $pad-marg-nav;
+            float: right;
+            li {
+                display: inline-block;
+                margin-right: $pad-marg-nav;
+                list-style: none;
+                @include textos-mixin;
+                a {
+                    color: #FFF;
+                    text-decoration: none;
+                    a:hover {
+                        color: blue;
+                        @extend .footer;
+                    }
+                
+                }
+
+
+            }
+        }
+    }
+

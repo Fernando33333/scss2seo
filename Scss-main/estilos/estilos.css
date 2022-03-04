@@ -1,0 +1,290 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: blue;
+        }
+
+        /* MEDIA QUERIES */
+        @media only screen and (min-width: 320px) {
+        
+            header {
+                background: blue;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+    
+            header .logo a{
+                text-decoration: none;
+                color: #FFF;
+                font-size: 25px;
+                padding-left: 50px;
+            }
+    
+            header nav {
+                display: inline-block;
+                
+                width: 500px;
+            }
+            header nav ul {
+                padding: 20px;
+                float: right;
+            }
+    
+            header nav ul li {
+                display: inline-block;
+                margin-right: 20px;
+                list-style: none;
+            }
+    
+            header nav ul li a {
+                color: #FFF;
+                text-decoration: none;
+    
+            }
+    
+            header nav ul li a:hover {
+                color: blue;
+            }
+    
+        .textos-img {
+            color: white;
+        }
+    
+            .container-grid {
+                    display: grid;
+                    grid-template-areas:
+                        'header header header header'
+                        'main main main main'
+                        'main main main main'
+                        'footer footer footer footer ';
+                    grid-template-columns: 1fr 1fr 1fr ;
+                    grid-template-rows: auto;
+                }
+    
+                header { 
+                    grid-area: header;
+                
+                }
+                
+                main { 
+                    grid-area: main; 
+                }
+                
+                footer {
+                    grid-area: footer;
+                }
+    
+                main {
+                    width: 100%;
+                    margin: auto;
+                    border: 2px solid white;
+                }
+    
+                .home-propiedades h2 {
+                    text-align: center;
+                    padding: 20px 0 20px 0;
+                }
+    
+                .home-propiedades div {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+    
+                .home-propiedades div div {
+                    margin: 10px;
+                    border: 1px solid white;
+                    width: 45%;
+                }
+    
+                .home-propiedades div div img {
+                    width: 100%;
+                }
+    
+                footer {
+                    background: blue;
+                    padding: 10px;
+                }
+    
+                footer p {
+                    color: #FFF;
+                    font-size: 20px;
+                    text-align: center;
+                }
+        
+        
+        }
+        @media only screen and (min-width: 480px) {
+        
+        header {
+            background: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        header .logo a{
+            text-decoration: none;
+            color: #FFF;
+            font-size: 25px;
+            padding-left: 50px;
+        }
+
+        header nav {
+            display: inline-block;
+            
+            width: 500px;
+        }
+        header nav ul {
+            padding: 20px;
+            float: right;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        header nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+
+        }
+
+        header nav ul li a:hover {
+            color: blue;
+        }
+
+    .textos-img {
+        color: white;
+    }
+
+        .container-grid {
+                display: grid;
+                grid-template-areas:
+                    'header header header header'
+                    'main main main main'
+                    'main main main main'
+                    'footer footer footer footer ';
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-template-rows: auto;
+            }
+
+            header { 
+                grid-area: header;
+            
+            }
+            
+            main { 
+                grid-area: main; 
+            }
+            
+            footer {
+                grid-area: footer;
+            }
+
+            main {
+                width: 100%;
+                margin: auto;
+                border: 2px solid white;
+            }
+
+            .home-propiedades h2 {
+                text-align: center;
+                padding: 20px 0 20px 0;
+            }
+
+            .home-propiedades div {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            .home-propiedades div div {
+                margin: 10px;
+                border: 1px solid white;
+                width: 45%;
+            }
+
+            .home-propiedades div div img {
+                width: 100%;
+            }
+
+            footer {
+                background: blue;
+                padding: 10px;
+            }
+
+            footer p {
+                color: #FFF;
+                font-size: 20px;
+                text-align: center;
+            }
+
+        }
+
+        @media only screen and (min-width: 576px) {
+        
+            
+
+        }
+
+        @media only screen and (min-width: 768px) {
+            main {
+                width: 100%;
+            }
+
+
+            .home-propiedades h2 {
+                text-align: center;
+                padding: 20px 0 20px 0;
+            }
+
+            .home-propiedades div {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            .home-propiedades div div {
+                margin: 10px;
+                border: 1px solid white;
+                width: 30%;
+            }
+
+            .home-propiedades div div img {
+                width: 100%;
+            }
+
+        }
+
+        @media only screen and (min-width: 991px) {
+            
+
+        }
+
+        @media only screen and (min-width: 1200px) {
+            
+            
+        }
+
+        @media only screen and (max-width: 1200px) {
+    
+
+        }
+
+
+
+
+
+
+
+
+
